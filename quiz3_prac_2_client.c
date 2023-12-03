@@ -38,7 +38,6 @@ int main()
     if (fifo_fd == -1) 
     {
         perror("open");
-        close(fifo_fd);
         exit(EXIT_FAILURE);
     }
 
